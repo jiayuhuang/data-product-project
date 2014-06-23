@@ -1,0 +1,46 @@
+Medicaid Inpatient Disease Rate Distribution for Pediatric Hospital Discharges by Zip Code 2011-2012
+========================================================
+
+Introduction
+--------------------------------------------------------
+This is an application of presenting the observed rate for medicaid inpatient discharges of 7 Pediatrics disease types from 2011 to 2012 in New York state. We acquired the raw data from https://health.data.ny.gov/Health/Medicaid-Inpatient-Prevention-Quality-Indicators-P/h6vj-9z3w. In this data set, we can find out the observed rate of a certain kind of disease for a certain year (2011, 2012) and a certain district (classified by zipcodes in NY). 
+
+The goal of this app is to fulfill the following functions:
+
+1. Given a zip code, show the city and the county the zip code is in.
+
+2. Given a year in 2011-2012 and a type of disease, show the geographical distribution of observed disease rate in NY and the Medicaid population of different zipcodes. 
+
+3. Given a type of disease and a zipcode in NY state, show the barplot of (average) observed disease rates of the zipcode area,  the county which the zipcode is in and the whole state in 2011-2012.
+
+4. Given a type of disease and a zipcode in NY state, show the boxplot of state-wide average observed disease rates.
+
+--------------------------------------------------------
+
+How to use this app?
+--------------------------------------------------------
+
+This app show you three parts. The left side panel, main panel and the part down below them.
+
+* In the left side panel, you can: 
+
+  * select an input year from 2011 - 2012  
+  * select a type of disease (7 in total) 
+  * select area in NY state by zipcode
+
+
+* According to your selection above, we can show you:
+
+  * function 1 in the side panel   
+  * function 2 in the main panel  
+  * function 3 in the side panel   
+  * function 4 in the side panel 
+  
+--------------------------------------------------------
+
+Note: 
+--------------------------------------------------------
+
+* The unit of observed disease rate is per 100,000 people 
+
+--------------------------------------------------------
